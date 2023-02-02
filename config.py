@@ -33,7 +33,7 @@ SESSION_STRING = getenv("SESSION_STRING", "BQCj_pgzwrq_uDGD-qRqeht9nUziNHq1DzCgU
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "Sweetu_Friends_Group")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Join_channel_Or_Group")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Cutie_Bamby_bot")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split(5559331038)))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS")
 REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
 if not REPLY_MESSAGE:
     REPLY_MESSAGE = None
