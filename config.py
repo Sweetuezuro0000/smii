@@ -26,15 +26,15 @@ admins = {}
 OLD_PMS = {}
 AUDIO_CALL = {}
 VIDEO_CALL = {}
-API_ID = int(getenv("API_ID", "20466793"))
-API_HASH = getenv("API_HASH", "5229101f02e28e6444d1e099013e0c69")
+API_ID = int(getenv("API_ID", "29516998"))
+API_HASH = getenv("API_HASH", "9dad1d74a0d6253dabbb51cf6539f5f5")
 BOT_TOKEN = getenv("BOT_TOKEN", "5757948115:AAHx3QiqEWaXuHu6SyfN2nDWm7yFsP6nymw")
-SESSION_STRING = getenv("SESSION_STRING", "BQCj_pgzwrq_uDGD-qRqeht9nUziNHq1DzCgU-6DxP6CntQZhqQWj7ExQ5aEIfukCWrqI4UBbBGlxE-_vnP0ezfUgbVCxRB8RJUhLEVsiurlqy9Vo1_0ETP-iRlbLI-EKEP2QrRJa3qwmi7kdbhvN6Dxp4rl1-IBDmGy9b0-G4c95u2z7d2f19OBZ4xTj01vEJHW45MQdc4zPqcQTueul047uWqH1gSjBV8vLSKWkwMF5CXwkIF044EwxmOMvhcVl-0db8KmDdZxu366OQVJxvM_wpHFr4PL5xGS5KB4REy1WnCpus-D6Ra8_-dY0EyXJutCOjAdaKC38ZsOhcbCddmUAAAAAUtcqN4A")
+SESSION_STRING = getenv("SESSION_STRING", "BQHCZMYAenO-cNWir8sUeZ6pjj_Bt-PHi-kxCfwST8-dWa-jGZ3yZPkNm07JHwbhm8zMTrhphP-e_dRppsSmwvPWUExMqRfrUc3ENuSuSYub673QfkW5JvgWmA_R4pABW8pyeD54MTyy7mMz5QdfGfVZwdfYoG0RiRG9Kf7RkHCnqX9vXMwPua3D0KMDrtOqFB6CRPGdrTr1JXPwJBh78nV6wWlNgaHFuSKxCfAjBahs0FUDl7gCvr_wjEDDV_I9hHEVCysGowscqFEuytyNTtHWk4Yp-ZCu4Ei5krh8Pvvi_oQq3kSfm1egXErOdRYV9WCL2mLZZMsI9Pmf-N_Oc6L0wteAHgAAAAFY9ByRAA")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "Sweetu_Friends_Group")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Join_channel_Or_Group")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Cutie_Bamby_bot")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS"))
-REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Sweetu_support")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Sweetu_assistant")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS")))
+REPLY_MESSAGE = getenv("REPLY_MESSAGE", "No Pm © @sweetu_support")
 if not REPLY_MESSAGE:
     REPLY_MESSAGE = None
 else:
